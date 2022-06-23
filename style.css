@@ -249,8 +249,30 @@ footer .footer{
 
 /* mobile */
 @media(max-width: 992px){
+    
     .flex-container{
         flex-direction: column;
+    }
+
+    .flex-container h1{
+        margin-left: 10px;
+    }
+
+    .flex-container h2{
+        margin-left: 10px;
+    }
+
+    .flex-container h3{
+        margin-left: 10px;
+    }
+
+    .flex-container p{
+        margin-left: 10px;
+    }
+
+    .list-items{
+        margin-top: 20px;
+        margin-left: 10px;
     }
 
     .apresentacao{
@@ -268,6 +290,10 @@ footer .footer{
     #quem-somos img{
         min-width: 320px;
         margin: auto;
+    }
+
+    #planos h2{
+        margin-bottom: 20px;
     }
 
     .list-servicos{
